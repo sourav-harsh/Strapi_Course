@@ -30,13 +30,13 @@
       "maxLength": 110,
       "minLength": 20
     },
-    "Image": {
-      "allowedTypes": [
-        "images"
-      ],
+    "image": {
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Category": {
       "type": "enumeration",
@@ -55,12 +55,12 @@
     "Colour": {
       "type": "enumeration",
       "enum": [
-        "Red ",
-        "Blue",
-        "Black",
-        "White",
-        "Green ",
-        "Yellow"
+        "red",
+        "blue",
+        "black",
+        "white",
+        "green",
+        "yellow"
       ]
     },
     "Price": {
